@@ -42,10 +42,10 @@ Will include Pytest
 * sklearn >= 1.0
 * lightgbm >= 3.3.0
 
-## Задача:
+## Task:
 Бинарная классификация: предсказать получает ли определенный человек больше или меньше определенной суммы
 
-## Данные:
+## Data:
 Исходные данные лежат в директории test_task_ml
 
 Описание:
@@ -66,4 +66,7 @@ cap-loss| Numerical
 hours-per-week  | Numerical
 native-country| Categorical
 
-
+## Output:
+Two output files
+`output_catboost.txt`-prediction using the `catboost` model
+`output_lgbm.txt`-prediction using the `lgbm` model
