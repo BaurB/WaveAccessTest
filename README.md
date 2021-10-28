@@ -27,8 +27,10 @@ new_df.save_dataframe(iris_df, 'iris_dataset_stats')
 ```
 
 ## Run Test
-Will include Pytest
-
+Loads the Iris dataset and check whether it has the right dimensions. Examples of saving the dataframe are in Jupyter Notebook. 
+```
+pytest . -v --cov=dataframe_summarizer
+```
 
 ## 2. ML Project 
 ## Prerequisites
